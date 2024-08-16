@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-16T14:57:27 ICT" name="Run NopCommerce" finished-at="2024-08-16T14:59:45 ICT" duration-ms="137496">
+    <groups>
+    </groups>
+    <test started-at="2024-08-16T14:57:27 ICT" name="Run Chorme" finished-at="2024-08-16T14:59:45 ICT" duration-ms="137496">
+      <class name="com.bankguru.Bank_03_New_Customer">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:57:49 ICT" name="beforeClass" finished-at="2024-08-16T14:58:01 ICT" duration-ms="11949" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="TC10_Verify_Filed_City_Cannot_First_Chracter()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:01 ICT" name="TC10_Verify_Filed_City_Cannot_First_Chracter" finished-at="2024-08-16T14:58:07 ICT" duration-ms="5189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC10_Verify_Filed_City_Cannot_First_Chracter -->
+        <test-method signature="TC11_Verify_Filed_state_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:07 ICT" name="TC11_Verify_Filed_state_Cannot_Empty" finished-at="2024-08-16T14:58:10 ICT" duration-ms="3524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC11_Verify_Filed_state_Cannot_Empty -->
+        <test-method signature="TC12_Verify_Filed_State_Cannot_Numeric()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:10 ICT" name="TC12_Verify_Filed_State_Cannot_Numeric" finished-at="2024-08-16T14:58:14 ICT" duration-ms="3989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC12_Verify_Filed_State_Cannot_Numeric -->
+        <test-method signature="TC13_Verify_Filed_State_Cannot_Special_Character()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:14 ICT" name="TC13_Verify_Filed_State_Cannot_Special_Character" finished-at="2024-08-16T14:58:18 ICT" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC13_Verify_Filed_State_Cannot_Special_Character -->
+        <test-method signature="TC14_Verify_Filed_State_Cannot_First_Chracter()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:18 ICT" name="TC14_Verify_Filed_State_Cannot_First_Chracter" finished-at="2024-08-16T14:58:22 ICT" duration-ms="4010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC14_Verify_Filed_State_Cannot_First_Chracter -->
+        <test-method signature="TC15_Verify_Filed_Pin_Cannot_Chracter()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:22 ICT" name="TC15_Verify_Filed_Pin_Cannot_Chracter" finished-at="2024-08-16T14:58:26 ICT" duration-ms="3788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC15_Verify_Filed_Pin_Cannot_Chracter -->
+        <test-method signature="TC16_Verify_Filed_Pin_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:26 ICT" name="TC16_Verify_Filed_Pin_Cannot_Empty" finished-at="2024-08-16T14:58:30 ICT" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC16_Verify_Filed_Pin_Cannot_Empty -->
+        <test-method signature="TC17_Verify_Filed_Pin_Must_Have_6_Digit()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:30 ICT" name="TC17_Verify_Filed_Pin_Must_Have_6_Digit" finished-at="2024-08-16T14:58:34 ICT" duration-ms="3947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC17_Verify_Filed_Pin_Must_Have_6_Digit -->
+        <test-method signature="TC18_Verify_Filed_Pin_Special_Character()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:34 ICT" name="TC18_Verify_Filed_Pin_Special_Character" finished-at="2024-08-16T14:58:38 ICT" duration-ms="4018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC18_Verify_Filed_Pin_Special_Character -->
+        <test-method signature="TC19_Verify_Filed_Pin_First_Blank()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:38 ICT" name="TC19_Verify_Filed_Pin_First_Blank" finished-at="2024-08-16T14:58:42 ICT" duration-ms="3783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC19_Verify_Filed_Pin_First_Blank -->
+        <test-method signature="TC1_Verify_Name_Filed_Name_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:42 ICT" name="TC1_Verify_Name_Filed_Name_Cannot_Empty" finished-at="2024-08-16T14:58:45 ICT" duration-ms="3828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_Verify_Name_Filed_Name_Cannot_Empty -->
+        <test-method signature="TC20_Verify_Filed_Telephone_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:45 ICT" name="TC20_Verify_Filed_Telephone_Cannot_Empty" finished-at="2024-08-16T14:58:49 ICT" duration-ms="3878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC20_Verify_Filed_Telephone_Cannot_Empty -->
+        <test-method signature="TC21_Verify_Filed_Telephone_Cannot_First_Character()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:49 ICT" name="TC21_Verify_Filed_Telephone_Cannot_First_Character" finished-at="2024-08-16T14:58:53 ICT" duration-ms="3968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC21_Verify_Filed_Telephone_Cannot_First_Character -->
+        <test-method signature="TC22_Verify_Filed_Telephone_Cannot_Have_Space()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:53 ICT" name="TC22_Verify_Filed_Telephone_Cannot_Have_Space" finished-at="2024-08-16T14:58:57 ICT" duration-ms="4278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC22_Verify_Filed_Telephone_Cannot_Have_Space -->
+        <test-method signature="TC23_Verify_Filed_Telephone_Cannot_Special_Character()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:58:58 ICT" name="TC23_Verify_Filed_Telephone_Cannot_Special_Character" finished-at="2024-08-16T14:59:01 ICT" duration-ms="3743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC23_Verify_Filed_Telephone_Cannot_Special_Character -->
+        <test-method signature="TC24_Verify_Filed_Email_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:01 ICT" name="TC24_Verify_Filed_Email_Cannot_Empty" finished-at="2024-08-16T14:59:05 ICT" duration-ms="3913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC24_Verify_Filed_Email_Cannot_Empty -->
+        <test-method signature="TC25_Verify_Filed_Email_Cannot_Incorrect_Format()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:05 ICT" name="TC25_Verify_Filed_Email_Cannot_Incorrect_Format" finished-at="2024-08-16T14:59:09 ICT" duration-ms="3836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25_Verify_Filed_Email_Cannot_Incorrect_Format -->
+        <test-method signature="TC26_Verify_Filed_Email_Cannot_Blank_First()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:09 ICT" name="TC26_Verify_Filed_Email_Cannot_Blank_First" finished-at="2024-08-16T14:59:13 ICT" duration-ms="3934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC26_Verify_Filed_Email_Cannot_Blank_First -->
+        <test-method signature="TC2_Verify_Name_Filed_Name_Cannot_Numeric()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:13 ICT" name="TC2_Verify_Name_Filed_Name_Cannot_Numeric" finished-at="2024-08-16T14:59:17 ICT" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_Verify_Name_Filed_Name_Cannot_Numeric -->
+        <test-method signature="TC3_Verify_Name_Filed_Name_Cannot_Special_Character()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:17 ICT" name="TC3_Verify_Name_Filed_Name_Cannot_Special_Character" finished-at="2024-08-16T14:59:20 ICT" duration-ms="3661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_Verify_Name_Filed_Name_Cannot_Special_Character -->
+        <test-method signature="TC4_Verify_Name_Filed_Name_Cannot_First_Chracter()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:20 ICT" name="TC4_Verify_Name_Filed_Name_Cannot_First_Chracter" finished-at="2024-08-16T14:59:24 ICT" duration-ms="3888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_Verify_Name_Filed_Name_Cannot_First_Chracter -->
+        <test-method signature="TC5_Verify_Address_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:24 ICT" name="TC5_Verify_Address_Cannot_Empty" finished-at="2024-08-16T14:59:28 ICT" duration-ms="3821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC5_Verify_Address_Cannot_Empty -->
+        <test-method signature="TC6_Verify_Address_Cannot_First_Chracter()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:28 ICT" name="TC6_Verify_Address_Cannot_First_Chracter" finished-at="2024-08-16T14:59:32 ICT" duration-ms="3710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC6_Verify_Address_Cannot_First_Chracter -->
+        <test-method signature="TC7_Verify_Filed_City_Cannot_Empty()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:32 ICT" name="TC7_Verify_Filed_City_Cannot_Empty" finished-at="2024-08-16T14:59:36 ICT" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC7_Verify_Filed_City_Cannot_Empty -->
+        <test-method signature="TC8_Verify_Filed_City_Cannot_Numeric()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:36 ICT" name="TC8_Verify_Filed_City_Cannot_Numeric" finished-at="2024-08-16T14:59:39 ICT" duration-ms="3824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC8_Verify_Filed_City_Cannot_Numeric -->
+        <test-method signature="TC9_Verify_Filed_City_Cannot_Special_Character()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:39 ICT" name="TC9_Verify_Filed_City_Cannot_Special_Character" finished-at="2024-08-16T14:59:43 ICT" duration-ms="3883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_Verify_Filed_City_Cannot_Special_Character -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.bankguru.Bank_03_New_Customer@7c56e013]" started-at="2024-08-16T14:59:43 ICT" name="afterClass" finished-at="2024-08-16T14:59:45 ICT" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.bankguru.Bank_03_New_Customer -->
+      <class name="com.bankguru.share.Common_Register">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.bankguru.share.Common_Register@2364305a]" started-at="2024-08-16T14:57:27 ICT" name="beforeTest" finished-at="2024-08-16T14:57:49 ICT" duration-ms="21941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+      </class> <!-- com.bankguru.share.Common_Register -->
+    </test> <!-- Run Chorme -->
+  </suite> <!-- Run NopCommerce -->
+</testng-results>

@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Run_NopCommerce" class="navigator-link">
+              <span class="suite-name border-passed">Run NopCommerce</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Run_NopCommerce" class="navigator-link ">
+                    <span>D:\TesterTest\project_bankguru\resources\runBankGuru.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Run_NopCommerce" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Run_NopCommerce" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Run_NopCommerce" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Run_NopCommerce" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Run_NopCommerce" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Run_NopCommerce" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">26 methods,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Run_NopCommerce" class="hide-methods passed suite-Run_NopCommerce"> (hide)</a> <!-- hide-methods passed suite-Run_NopCommerce -->
+                      <a href="#" panel-name="suite-Run_NopCommerce" class="show-methods passed suite-Run_NopCommerce"> (show)</a> <!-- show-methods passed suite-Run_NopCommerce -->
+                    </span>
+                    <div class="method-list-content passed suite-Run_NopCommerce">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC10_Verify_Filed_City_Cannot_First_Chracter">TC10_Verify_Filed_City_Cannot_First_Chracter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC11_Verify_Filed_state_Cannot_Empty">TC11_Verify_Filed_state_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC12_Verify_Filed_State_Cannot_Numeric">TC12_Verify_Filed_State_Cannot_Numeric</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC13_Verify_Filed_State_Cannot_Special_Character">TC13_Verify_Filed_State_Cannot_Special_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC14_Verify_Filed_State_Cannot_First_Chracter">TC14_Verify_Filed_State_Cannot_First_Chracter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC15_Verify_Filed_Pin_Cannot_Chracter">TC15_Verify_Filed_Pin_Cannot_Chracter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC16_Verify_Filed_Pin_Cannot_Empty">TC16_Verify_Filed_Pin_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC17_Verify_Filed_Pin_Must_Have_6_Digit">TC17_Verify_Filed_Pin_Must_Have_6_Digit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC18_Verify_Filed_Pin_Special_Character">TC18_Verify_Filed_Pin_Special_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC19_Verify_Filed_Pin_First_Blank">TC19_Verify_Filed_Pin_First_Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC1_Verify_Name_Filed_Name_Cannot_Empty">TC1_Verify_Name_Filed_Name_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC20_Verify_Filed_Telephone_Cannot_Empty">TC20_Verify_Filed_Telephone_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC21_Verify_Filed_Telephone_Cannot_First_Character">TC21_Verify_Filed_Telephone_Cannot_First_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC22_Verify_Filed_Telephone_Cannot_Have_Space">TC22_Verify_Filed_Telephone_Cannot_Have_Space</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC23_Verify_Filed_Telephone_Cannot_Special_Character">TC23_Verify_Filed_Telephone_Cannot_Special_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC24_Verify_Filed_Email_Cannot_Empty">TC24_Verify_Filed_Email_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC25_Verify_Filed_Email_Cannot_Incorrect_Format">TC25_Verify_Filed_Email_Cannot_Incorrect_Format</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC26_Verify_Filed_Email_Cannot_Blank_First">TC26_Verify_Filed_Email_Cannot_Blank_First</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC2_Verify_Name_Filed_Name_Cannot_Numeric">TC2_Verify_Name_Filed_Name_Cannot_Numeric</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC3_Verify_Name_Filed_Name_Cannot_Special_Character">TC3_Verify_Name_Filed_Name_Cannot_Special_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC4_Verify_Name_Filed_Name_Cannot_First_Chracter">TC4_Verify_Name_Filed_Name_Cannot_First_Chracter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC5_Verify_Address_Cannot_Empty">TC5_Verify_Address_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC6_Verify_Address_Cannot_First_Chracter">TC6_Verify_Address_Cannot_First_Chracter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC7_Verify_Filed_City_Cannot_Empty">TC7_Verify_Filed_City_Cannot_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC8_Verify_Filed_City_Cannot_Numeric">TC8_Verify_Filed_City_Cannot_Numeric</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Run_NopCommerce" title="com.bankguru.Bank_03_New_Customer" class="method navigator-link" hash-for-method="TC9_Verify_Filed_City_Cannot_Special_Character">TC9_Verify_Filed_City_Cannot_Special_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Run_NopCommerce -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Run_NopCommerce" class="panel Run_NopCommerce">
+          <div class="suite-Run_NopCommerce-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankguru.Bank_03_New_Customer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC10_Verify_Filed_City_Cannot_First_Chracter">
+                  </a> <!-- TC10_Verify_Filed_City_Cannot_First_Chracter -->
+                  <span class="method-name">TC10_Verify_Filed_City_Cannot_First_Chracter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC11_Verify_Filed_state_Cannot_Empty">
+                  </a> <!-- TC11_Verify_Filed_state_Cannot_Empty -->
+                  <span class="method-name">TC11_Verify_Filed_state_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC12_Verify_Filed_State_Cannot_Numeric">
+                  </a> <!-- TC12_Verify_Filed_State_Cannot_Numeric -->
+                  <span class="method-name">TC12_Verify_Filed_State_Cannot_Numeric</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC13_Verify_Filed_State_Cannot_Special_Character">
+                  </a> <!-- TC13_Verify_Filed_State_Cannot_Special_Character -->
+                  <span class="method-name">TC13_Verify_Filed_State_Cannot_Special_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC14_Verify_Filed_State_Cannot_First_Chracter">
+                  </a> <!-- TC14_Verify_Filed_State_Cannot_First_Chracter -->
+                  <span class="method-name">TC14_Verify_Filed_State_Cannot_First_Chracter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC15_Verify_Filed_Pin_Cannot_Chracter">
+                  </a> <!-- TC15_Verify_Filed_Pin_Cannot_Chracter -->
+                  <span class="method-name">TC15_Verify_Filed_Pin_Cannot_Chracter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC16_Verify_Filed_Pin_Cannot_Empty">
+                  </a> <!-- TC16_Verify_Filed_Pin_Cannot_Empty -->
+                  <span class="method-name">TC16_Verify_Filed_Pin_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC17_Verify_Filed_Pin_Must_Have_6_Digit">
+                  </a> <!-- TC17_Verify_Filed_Pin_Must_Have_6_Digit -->
+                  <span class="method-name">TC17_Verify_Filed_Pin_Must_Have_6_Digit</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC18_Verify_Filed_Pin_Special_Character">
+                  </a> <!-- TC18_Verify_Filed_Pin_Special_Character -->
+                  <span class="method-name">TC18_Verify_Filed_Pin_Special_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC19_Verify_Filed_Pin_First_Blank">
+                  </a> <!-- TC19_Verify_Filed_Pin_First_Blank -->
+                  <span class="method-name">TC19_Verify_Filed_Pin_First_Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC1_Verify_Name_Filed_Name_Cannot_Empty">
+                  </a> <!-- TC1_Verify_Name_Filed_Name_Cannot_Empty -->
+                  <span class="method-name">TC1_Verify_Name_Filed_Name_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC20_Verify_Filed_Telephone_Cannot_Empty">
+                  </a> <!-- TC20_Verify_Filed_Telephone_Cannot_Empty -->
+                  <span class="method-name">TC20_Verify_Filed_Telephone_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC21_Verify_Filed_Telephone_Cannot_First_Character">
+                  </a> <!-- TC21_Verify_Filed_Telephone_Cannot_First_Character -->
+                  <span class="method-name">TC21_Verify_Filed_Telephone_Cannot_First_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC22_Verify_Filed_Telephone_Cannot_Have_Space">
+                  </a> <!-- TC22_Verify_Filed_Telephone_Cannot_Have_Space -->
+                  <span class="method-name">TC22_Verify_Filed_Telephone_Cannot_Have_Space</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC23_Verify_Filed_Telephone_Cannot_Special_Character">
+                  </a> <!-- TC23_Verify_Filed_Telephone_Cannot_Special_Character -->
+                  <span class="method-name">TC23_Verify_Filed_Telephone_Cannot_Special_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC24_Verify_Filed_Email_Cannot_Empty">
+                  </a> <!-- TC24_Verify_Filed_Email_Cannot_Empty -->
+                  <span class="method-name">TC24_Verify_Filed_Email_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC25_Verify_Filed_Email_Cannot_Incorrect_Format">
+                  </a> <!-- TC25_Verify_Filed_Email_Cannot_Incorrect_Format -->
+                  <span class="method-name">TC25_Verify_Filed_Email_Cannot_Incorrect_Format</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC26_Verify_Filed_Email_Cannot_Blank_First">
+                  </a> <!-- TC26_Verify_Filed_Email_Cannot_Blank_First -->
+                  <span class="method-name">TC26_Verify_Filed_Email_Cannot_Blank_First</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC2_Verify_Name_Filed_Name_Cannot_Numeric">
+                  </a> <!-- TC2_Verify_Name_Filed_Name_Cannot_Numeric -->
+                  <span class="method-name">TC2_Verify_Name_Filed_Name_Cannot_Numeric</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC3_Verify_Name_Filed_Name_Cannot_Special_Character">
+                  </a> <!-- TC3_Verify_Name_Filed_Name_Cannot_Special_Character -->
+                  <span class="method-name">TC3_Verify_Name_Filed_Name_Cannot_Special_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC4_Verify_Name_Filed_Name_Cannot_First_Chracter">
+                  </a> <!-- TC4_Verify_Name_Filed_Name_Cannot_First_Chracter -->
+                  <span class="method-name">TC4_Verify_Name_Filed_Name_Cannot_First_Chracter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC5_Verify_Address_Cannot_Empty">
+                  </a> <!-- TC5_Verify_Address_Cannot_Empty -->
+                  <span class="method-name">TC5_Verify_Address_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC6_Verify_Address_Cannot_First_Chracter">
+                  </a> <!-- TC6_Verify_Address_Cannot_First_Chracter -->
+                  <span class="method-name">TC6_Verify_Address_Cannot_First_Chracter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC7_Verify_Filed_City_Cannot_Empty">
+                  </a> <!-- TC7_Verify_Filed_City_Cannot_Empty -->
+                  <span class="method-name">TC7_Verify_Filed_City_Cannot_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC8_Verify_Filed_City_Cannot_Numeric">
+                  </a> <!-- TC8_Verify_Filed_City_Cannot_Numeric -->
+                  <span class="method-name">TC8_Verify_Filed_City_Cannot_Numeric</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC9_Verify_Filed_City_Cannot_Special_Character">
+                  </a> <!-- TC9_Verify_Filed_City_Cannot_Special_Character -->
+                  <span class="method-name">TC9_Verify_Filed_City_Cannot_Special_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Run_NopCommerce-class-passed -->
+        </div> <!-- panel Run_NopCommerce -->
+        <div panel-name="test-xml-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\TesterTest\project_bankguru\resources\runBankGuru.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Run NopCommerce&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run Chorme&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://demo.guru99.com/v4/manager/Managerhomepage.php&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankguru.share.Common_Register&quot;/&gt;
+      &lt;class name=&quot;com.bankguru.Bank_03_New_Customer&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run Chorme --&gt;
+&lt;/suite&gt; &lt;!-- Run NopCommerce --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Run NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run Chorme (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Run NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Run NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Run_NopCommerce');
+function tableData_Run_NopCommerce() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(26);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC10_Verify_Filed_City_Cannot_First_Chracter')
+data.setCell(0, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(0, 3, 5189);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TC22_Verify_Filed_Telephone_Cannot_Have_Space')
+data.setCell(1, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(1, 3, 4278);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TC18_Verify_Filed_Pin_Special_Character')
+data.setCell(2, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(2, 3, 4018);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TC14_Verify_Filed_State_Cannot_First_Chracter')
+data.setCell(3, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(3, 3, 4010);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TC12_Verify_Filed_State_Cannot_Numeric')
+data.setCell(4, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(4, 3, 3989);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TC21_Verify_Filed_Telephone_Cannot_First_Character')
+data.setCell(5, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(5, 3, 3968);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TC17_Verify_Filed_Pin_Must_Have_6_Digit')
+data.setCell(6, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(6, 3, 3947);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TC26_Verify_Filed_Email_Cannot_Blank_First')
+data.setCell(7, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(7, 3, 3934);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TC16_Verify_Filed_Pin_Cannot_Empty')
+data.setCell(8, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(8, 3, 3918);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TC24_Verify_Filed_Email_Cannot_Empty')
+data.setCell(9, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(9, 3, 3913);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TC13_Verify_Filed_State_Cannot_Special_Character')
+data.setCell(10, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(10, 3, 3897);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TC4_Verify_Name_Filed_Name_Cannot_First_Chracter')
+data.setCell(11, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(11, 3, 3888);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TC9_Verify_Filed_City_Cannot_Special_Character')
+data.setCell(12, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(12, 3, 3883);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TC20_Verify_Filed_Telephone_Cannot_Empty')
+data.setCell(13, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(13, 3, 3878);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TC7_Verify_Filed_City_Cannot_Empty')
+data.setCell(14, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(14, 3, 3877);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TC25_Verify_Filed_Email_Cannot_Incorrect_Format')
+data.setCell(15, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(15, 3, 3836);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TC1_Verify_Name_Filed_Name_Cannot_Empty')
+data.setCell(16, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(16, 3, 3828);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TC8_Verify_Filed_City_Cannot_Numeric')
+data.setCell(17, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(17, 3, 3824);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TC5_Verify_Address_Cannot_Empty')
+data.setCell(18, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(18, 3, 3821);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TC15_Verify_Filed_Pin_Cannot_Chracter')
+data.setCell(19, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(19, 3, 3788);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TC19_Verify_Filed_Pin_First_Blank')
+data.setCell(20, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(20, 3, 3783);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TC2_Verify_Name_Filed_Name_Cannot_Numeric')
+data.setCell(21, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(21, 3, 3744);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TC23_Verify_Filed_Telephone_Cannot_Special_Character')
+data.setCell(22, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(22, 3, 3743);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TC6_Verify_Address_Cannot_First_Chracter')
+data.setCell(23, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(23, 3, 3710);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TC3_Verify_Name_Filed_Name_Cannot_Special_Character')
+data.setCell(24, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(24, 3, 3661);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TC11_Verify_Filed_state_Cannot_Empty')
+data.setCell(25, 2, 'com.bankguru.Bank_03_New_Customer')
+data.setCell(25, 3, 3524);
+window.suiteTableData['Run_NopCommerce']= { tableData: data, tableDiv: 'times-div-Run_NopCommerce'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Run_NopCommerce">
+              </div> <!-- times-div-Run_NopCommerce -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Run NopCommerce</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Run_NopCommerce" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.share.Common_Register</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankguru.Bank_03_New_Customer</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass(firefox)</span>
+                <span class="method-start">22024 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">TC10_Verify_Filed_City_Cannot_First_Chracter</span>
+                <span class="method-start">33992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC11_Verify_Filed_state_Cannot_Empty</span>
+                <span class="method-start">39186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC12_Verify_Filed_State_Cannot_Numeric</span>
+                <span class="method-start">42714 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC13_Verify_Filed_State_Cannot_Special_Character</span>
+                <span class="method-start">46706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC14_Verify_Filed_State_Cannot_First_Chracter</span>
+                <span class="method-start">50607 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC15_Verify_Filed_Pin_Cannot_Chracter</span>
+                <span class="method-start">54621 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC16_Verify_Filed_Pin_Cannot_Empty</span>
+                <span class="method-start">58411 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC17_Verify_Filed_Pin_Must_Have_6_Digit</span>
+                <span class="method-start">62331 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC18_Verify_Filed_Pin_Special_Character</span>
+                <span class="method-start">66283 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC19_Verify_Filed_Pin_First_Blank</span>
+                <span class="method-start">70305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC1_Verify_Name_Filed_Name_Cannot_Empty</span>
+                <span class="method-start">74091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC20_Verify_Filed_Telephone_Cannot_Empty</span>
+                <span class="method-start">77921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC21_Verify_Filed_Telephone_Cannot_First_Character</span>
+                <span class="method-start">81802 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC22_Verify_Filed_Telephone_Cannot_Have_Space</span>
+                <span class="method-start">85773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC23_Verify_Filed_Telephone_Cannot_Special_Character</span>
+                <span class="method-start">90054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC24_Verify_Filed_Email_Cannot_Empty</span>
+                <span class="method-start">93800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC25_Verify_Filed_Email_Cannot_Incorrect_Format</span>
+                <span class="method-start">97716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC26_Verify_Filed_Email_Cannot_Blank_First</span>
+                <span class="method-start">101554 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC2_Verify_Name_Filed_Name_Cannot_Numeric</span>
+                <span class="method-start">105489 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC3_Verify_Name_Filed_Name_Cannot_Special_Character</span>
+                <span class="method-start">109238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC4_Verify_Name_Filed_Name_Cannot_First_Chracter</span>
+                <span class="method-start">112900 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC5_Verify_Address_Cannot_Empty</span>
+                <span class="method-start">116789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC6_Verify_Address_Cannot_First_Chracter</span>
+                <span class="method-start">120611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC7_Verify_Filed_City_Cannot_Empty</span>
+                <span class="method-start">124323 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC8_Verify_Filed_City_Cannot_Numeric</span>
+                <span class="method-start">128201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TC9_Verify_Filed_City_Cannot_Special_Character</span>
+                <span class="method-start">132026 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">135913 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
